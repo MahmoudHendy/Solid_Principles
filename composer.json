@@ -1,0 +1,10 @@
+{
+    "name": "php/solid_principles",
+    "description": "PHP Solid Principles",
+    "autoload": {
+        "psr-4": {
+            "Php\\SolidPrinciples\\": "scr/"
+        }
+    },
+    "require": {}
+}
