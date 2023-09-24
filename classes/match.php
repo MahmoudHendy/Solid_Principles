@@ -1,16 +1,20 @@
-<?php 
+<?php
+
+namespace Classes;
 
 class FT_Match {
-  public function attack() {
+  private $attack;
+  private $defense;
+  private $keeper;
 
+  public function __construct() {
+    $this->attack = new Attack();
+    $this->defense = new Defense();
+    $this->keeper  = new Keeper();
   }
 
-  public function defense() {
-
-  }
-
-  public function keeper() {
-    
+  public function run() {
+    echo "Run The Code";
   }
 }
 
